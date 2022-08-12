@@ -8,44 +8,42 @@ function Skill() {
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
                 <p className="uppercase text-xl tracking-widest text-[#5651e5]">Skill</p>
                 <h2>What I Can Do</h2>
-                <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8  ">
                     <SkillItem
-                        name='JAVA'
+                        name='Java'
                         img="/../public/assets/java.png"
                     />
                     <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
-                    />
-
-                    <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
+                        name='JavaScript'
+                        img="/../public/assets/js.png"
                     />
 
                     <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
+                        name='React'
+                        img="/../public/assets/react.png"
                     />
 
                     <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
+                        name='NextJS'
+                        img="/../public/assets/nextjs.png"
                     />
 
                     <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
+                        name='NestJS'
+                        img="/../public/assets/nestjs.png"
                     />
 
                     <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
+                        name='Spring'
+                        img="/../public/assets/spring.png"
                     />
-
                     <SkillItem
-                        name='JAVA'
-                        img="/../public/assets/java.png"
+                        name='Tailwind'
+                        img="/../public/assets/tailwind.png"
+                    />
+                    <SkillItem
+                        name='Flutter'
+                        img="/../public/assets/flutter.png"
                     />
                 </div>
             </div>

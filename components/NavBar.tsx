@@ -29,27 +29,27 @@ export const NavBar = () => {
     return (
         <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100] " : "fixed w-full h-20 z-[100]"}>
             <div className="flex justify-between items-center h-full w-full px-2 xl:px-14 ">
-                <Image src="" alt="" width="125" height="50" />
+                <Image src="/../public/assets/H.png" alt="" width="50" height="50" />
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/">
-                            <li className="ml-10 text-sm uppercase  hover:border-b">Home</li>
+                            <li className="ml-10 text-sm uppercase   font-extrabold hover:border-b">Home</li>
                         </Link>
                         <Link href="/#about">
-                            <li className="ml-10 text-sm uppercase  hover:border-b">About</li>
+                            <li className="ml-10 text-sm uppercase font-extrabold  hover:border-b">About</li>
                         </Link>
                         <Link href="/#skill">
-                            <li className="ml-10 text-sm uppercase  hover:border-b">
+                            <li className="ml-10 text-sm uppercase  font-extrabold hover:border-b">
                                 Skills
                             </li>
                         </Link>
                         <Link href="/#project">
-                            <li className="ml-10 text-sm uppercase  hover:border-b">
+                            <li className="ml-10 text-sm uppercase   font-extrabold hover:border-b">
                                 Projects
                             </li>
                         </Link>
                         <Link href="/#contact">
-                            <li className="ml-10 text-sm uppercase  hover:border-b">
+                            <li className="ml-10 text-sm uppercase  font-extrabold  hover:border-b">
                                 Contact
                             </li>
                         </Link>
@@ -86,7 +86,7 @@ export const NavBar = () => {
                             Let&#39;s build something legendary!!
                         </p>
                     </div>
-                    <Image src="" alt="" width="125" height="50" />
+                    <Image src="/../public/assets/H.png" alt="" width="50" height="50" />
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase ml-2 font-semibold cursor-pointer">
                             <Link href="/">
@@ -110,17 +110,17 @@ export const NavBar = () => {
                                 Let&#39;s Connect
                             </p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <FaLinkedinIn />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="https://www.linkedin.com/in/huyraw/"><FaLinkedinIn /></a>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <FaGithub />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="https://github.com/huy-raw"> <FaGithub /></a>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <FaFacebook />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="https://www.facebook.com/ruacon.19.9.01"><FaFacebook /></a>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <AiOutlineMail />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="mailto:trieuhuy19.09@gmail.com"><AiOutlineMail /></a>
                                 </div>
                             </div>
                         </div>

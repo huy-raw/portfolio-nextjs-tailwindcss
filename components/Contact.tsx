@@ -22,22 +22,22 @@ const Contact = () => {
                             </div>
                             <div className="py-4">
                                 <h2 className='py-2'>Trieu Quang Huy</h2>
-                                <p className="font-semibold p-2">Fresher Developer</p>
+                                <p className="font-semibold p-2">Fresher</p>
                                 <p className="p-2">I am a student of FPT university. I am available for internship or fresher developer. Contact me and let's talk.</p>
                             </div>
                             <p className="p-2 font-semibold">Connect With Me</p>
                             <div className="flex items-center justify-around py-4">
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-5 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <FaLinkedinIn />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="https://www.linkedin.com/in/huyraw/"><FaLinkedinIn /></a>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-5 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <FaGithub />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="https://github.com/huy-raw"> <FaGithub /></a>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-5 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <FaFacebook />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="https://www.facebook.com/ruacon.19.9.01"><FaFacebook /></a>
                                 </div>
-                                <div className="rounded-full shadow-lg shadow-gray-dark p-5 cursor-pointer  hover:scale-105 ease-in-out duration-300">
-                                    <AiOutlineMail />
+                                <div className="rounded-full shadow-lg shadow-gray-dark p-3 cursor-pointer  hover:scale-125 ease-in-out duration-300">
+                                    <a href="mailto:trieuhuy19.09@gmail.com"><AiOutlineMail /></a>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                                         />
                                     </div>
                                     <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>
+                                        <label className='uppercase text-sm py-2 font'>
                                             Phone Number
                                         </label>
                                         <input
