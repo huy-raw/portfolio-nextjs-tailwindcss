@@ -1,6 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 import { SkillItem } from './SkillIItem'
+import flutter from   '../public/assets/flutter.png'
+import react from '../public/assets/react.png'
+import java from '../public/assets/java.png'
+import nextjs from '../public/assets/nextjs.png'
+import nestjs from '../public/assets/nestjs.png'
+import js from '../public/assets/js.png'
+import tailwind from '../public/assets/tailwind.png'
+import spring from '../public/assets/spring.png'
 
 function Skill() {
     return (
@@ -11,39 +19,39 @@ function Skill() {
                 <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8  ">
                     <SkillItem
                         name='Java'
-                        img="/../public/assets/java.png"
+                        img={java}
                     />
                     <SkillItem
                         name='JavaScript'
-                        img="/../public/assets/js.png"
+                        img={js}
                     />
 
                     <SkillItem
                         name='React'
-                        img="/../public/assets/react.png"
+                        img={react}
                     />
 
                     <SkillItem
                         name='NextJS'
-                        img="/../public/assets/nextjs.png"
+                        img={nextjs}
                     />
 
                     <SkillItem
                         name='NestJS'
-                        img="/../public/assets/nestjs.png"
+                        img={nestjs}
                     />
 
                     <SkillItem
                         name='Spring'
-                        img="/../public/assets/spring.png"
+                        img={spring}
                     />
                     <SkillItem
                         name='Tailwind'
-                        img="/../public/assets/tailwind.png"
+                        img={tailwind}
                     />
                     <SkillItem
                         name='Flutter'
-                        img="/../public/assets/flutter.png"
+                        img={flutter}
                     />
                 </div>
             </div>
