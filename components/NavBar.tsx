@@ -1,6 +1,7 @@
 // @flow
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -9,6 +10,9 @@ import H from '../public/assets/H.png';
 export const NavBar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
+    const [navBg, setNavBg] = useState('#ecf0f3');
+    const [linkColor, setLinkColor] = useState('#1f2937');
+    const router = useRouter()
 
     const handleNav = () => {
         setNav(!nav);
@@ -33,7 +37,7 @@ export const NavBar = () => {
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/">
-                            <li className="ml-10 text-sm uppercase cursor-pointer  font-extrabold hover:border-b">Home</li>
+                            <li className="ml-10 text-sm uppercase cursor-pointer font-extrabold hover:border-b">Home</li>
                         </Link>
                         <Link href="/#about">
                             <li className="ml-10 text-sm uppercase cursor-pointer font-extrabold  hover:border-b">About</li>

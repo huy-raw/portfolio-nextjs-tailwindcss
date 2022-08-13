@@ -17,6 +17,7 @@ export const SkillItem = ({ img, name }: ISkillItem) => {
                             src={img}
                             width='64px'
                             height="64px"
+                            placeholder='blur' 
                         />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
